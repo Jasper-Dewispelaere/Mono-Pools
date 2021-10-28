@@ -1,0 +1,40 @@
+body{
+    background-image: url("/img/background.jpg");
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar setup */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}  
+#navbar .active {
+    background-color: #04AA6D;
+    color: white;
+}
+/* Logo setup */
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.main-logo{
+    width: 25%;
+}
+
